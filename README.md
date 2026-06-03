@@ -60,10 +60,10 @@ et l'administration). Il vise la transparence, la réutilisation et la contribut
 L'application restitue, sur un fond cartographique interactif, plusieurs couches d'information
 disponibles par opérateur et par technologie (2G / 3G / 4G) :
 
-- **Cartes de couverture mobile**
+- **Cartes de couverture théoriques**
   - Couverture _Appels et SMS_
   - Couverture _Internet mobile_
-- **Tests de qualité de service** issus des campagnes de mesures terrain de l'Arcep et de partenaires
+- **Tests de qualité réseau** issus des campagnes de mesures terrain de l'Arcep et de partenaires
   - Tests de _navigation web_ 
   - Tests de _vidéo en ligne_ 
   - Tests de _débits descendants_ 
@@ -90,20 +90,20 @@ disponibles par opérateur et par technologie (2G / 3G / 4G) :
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="docs/coverage.png" alt="Carte de couverture mobile par opérateur" width="150"> | <img src="docs/qos.png" alt="Tests de qualité de service" width="150"> | <img src="docs/antenna.png" alt="Antennes et déploiements 4G/5G" width="150"> | <img src="docs/zac.png" alt="Zones à couvrir du dispositif de couverture ciblée" width="150"> | <img src="docs/signalements.png" alt="Signalements J'alerte l'Arcep" width="150"> |
 
-Démonstration en ligne : **<https://monreseaumobile.arcep.fr/>**
+Accéder à l'application : **<https://monreseaumobile.arcep.fr/>**
 
 ---
 
 ## 🗂️ Sources de données
 
 Les données affichées proviennent de sources ouvertes et de transmissions réglementaires des
-opérateurs. Les principales sources publiques réutilisables :
+opérateurs. Les principales sources publiques réutilisables sont :
 
-| Donnée | Producteur | Portail |
+| Données | Producteur | Accès |
 | --- | --- | --- |
 | Cartes de couverture | Opérateurs / Arcep | [data.arcep.fr](https://data.arcep.fr/mobile/couvertures_theoriques/) |
 | Mesures de qualité de service | Arcep | [data.arcep.fr](https://data.arcep.fr/mobile/mesures_qualite_arcep/) |
-| Antennes et déploiements | Arcep / ANFR | [data.anfr.fr](https://data.arcep.fr/mobile/sites/) · [data.gouv](https://www.data.gouv.fr/datasets/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1) |
+| Antennes et déploiements | Arcep / ANFR | [data.arcep.fr](https://data.arcep.fr/mobile/sites/) · [data.gouv](https://www.data.gouv.fr/datasets/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1) |
 | Zones à couvrir | Arcep / Gouvernement | [data.arcep.fr](https://data.arcep.fr/mobile/dispositif_couverture_ciblee/) |
 | Signalements consommateurs | Arcep (« J'alerte l'Arcep ») | Non disponibles |
 
@@ -116,11 +116,9 @@ Les jeux de données sont, sauf mention contraire, publiés sous **Licence Ouver
 
 ## 🏗️ Architecture
 
----
 
 <img src="docs/stack.png" alt="Architecture">
 
----
 
 ## 🧰 Pile technique
 
@@ -165,7 +163,7 @@ Adresse de contact : consommateurs@arcep.fr
 ## 🙏 Crédits et contact
 
 - **Éditeur** : Neogeo Technologies, BAL, 67 All. Jean Jaurès, 31000 Toulouse.
-- **Données partenaires** : opérateurs mobiles, ANFR, collectivités territoriales, Speedchecker, Ookla (liste non-exhaustive)
+- **Données partenaires** : Collectivités territoriales, Speedchecker, Ookla (liste non-exhaustive)
 - **Service en ligne** : <https://monreseaumobile.arcep.fr/>
 - **Page d'information** :
   [arcep.fr — « Mon réseau mobile »](https://www.arcep.fr/mes-demarches-et-services/consommateurs/fiches-pratiques/comment-utiliser-mon-reseau-mobile.html)
