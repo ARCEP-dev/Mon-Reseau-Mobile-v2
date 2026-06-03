@@ -87,8 +87,8 @@ disponibles par opérateur et par technologie (2G / 3G / 4G) :
 ## 🖼️ Captures et démonstration
 
 | Couverture mobile | Qualité de service | Antennes et déploiements | Zones à couvrir | Signalements |
-| :---: | :---: | :---: |
-| <img src="docs/coverage.png" alt="Carte de couverture mobile" width="250"> | <img src="docs/qos.png" alt="Qualité de service" width="250"> | <img src="docs/antenna.png" alt="Antennes et déploiements" width="250"> | <img src="docs/zac.png" alt="Zones à couvrir" width="250"> | <img src="docs/signalements.png" alt="Signalements" width="250"> | 
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="docs/coverage.png" alt="Carte de couverture mobile par opérateur" width="150"> | <img src="docs/qos.png" alt="Tests de qualité de service" width="150"> | <img src="docs/antenna.png" alt="Antennes et déploiements 4G/5G" width="150"> | <img src="docs/zac.png" alt="Zones à couvrir du dispositif de couverture ciblée" width="150"> | <img src="docs/signalements.png" alt="Signalements J'alerte l'Arcep" width="150"> |
 
 Démonstration en ligne : **<https://monreseaumobile.arcep.fr/>**
 
@@ -131,6 +131,8 @@ Les jeux de données sont, sauf mention contraire, publiés sous **Licence Ouver
 - **Back-end** : Django.
 - **Données géospatiales** : PostgreSQL + PostGIS.
 - **Conteneurisation & déploiement** : Docker, Ansible.
+
+---
 
 ## ♿ Accessibilité et éco-conception
 
