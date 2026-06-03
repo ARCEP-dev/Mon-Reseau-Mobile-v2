@@ -101,13 +101,6 @@ disponibles par opérateur et par technologie (2G / 3G / 4G) :
     <td><img src="docs/zac.png" alt="Zones à couvrir du dispositif de couverture ciblée" width="100%"></td>
     <td><img src="docs/signalements.png" alt="Signalements J'alerte l'Arcep" width="100%"></td>
   </tr>
-  <tr>
-    <td align="center">Voix/SMS et Internet</td>
-    <td align="center">Mesures terrain Arcep</td>
-    <td align="center">Sites par technologie</td>
-    <td align="center"><em>New Deal</em> mobile</td>
-    <td align="center">« J'alerte l'Arcep »</td>
-  </tr>
 </table>
 
 Accéder à l'application : **<https://monreseaumobile.arcep.fr/>**  
@@ -153,8 +146,8 @@ Les jeux de données sont, sauf mention contraire, publiés sous **Licence Ouver
 
 ## ♿ Accessibilité et éco-conception
 
-Service public numérique, l'application vise la conformité au **RGAA** (Référentiel général
-d'amélioration de l'accessibilité) et une démarche d'**éco-conception** (Référentiel général d'écoconception de services numériques). 
+Service public numérique, l'application vise la conformité au [RGAA](https://accessibilite.numerique.gouv.fr/) (Référentiel général
+d'amélioration de l'accessibilité) et au [RGESN](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/) (Référentiel général d'écoconception de services numériques). 
 Toute contribution doit veiller à ne pas dégrader l'accessibilité (navigation clavier, contrastes, alternatives
 textuelles, ARIA) ni la sobriété (poids des assets, requêtes réseau).
 
@@ -166,6 +159,11 @@ Merci de **ne pas** divulguer publiquement une faille de sécurité dans une iss
 Signalez-la de manière responsable via l'adresse de contact ci-dessous. 
 
 Adresse de contact : consommateurs@arcep.fr
+
+**Mon reseau mobile** fait l'objet d'audit de sécurité réguliers et s'inscrit dans la 
+démarche de sécurisation des systèmes d'informations proposée par l'ANSSI (Agence nationale 
+de la sécurité des systèmes d'information) via [MonServiceSécurisé](https://monservicesecurise.cyber.gouv.fr/).
+Néanmoins, des failles peuvent subsister. 
 
 ---
 
