@@ -61,15 +61,15 @@ L'application restitue, sur un fond cartographique interactif, plusieurs couches
 disponibles par opérateur et par technologie (2G / 3G / 4G) :
 
 - **Cartes de couverture mobile**
-  - Couverture _Appels et SMS_ : très bonne / bonne / limitée / non couvert.
-  - Couverture _Internet mobile_ : très bonne / bonne / limitée / non couvert.
+  - Couverture _Appels et SMS_
+  - Couverture _Internet mobile_
 - **Tests de qualité de service** issus des campagnes de mesures terrain de l'Arcep et de partenaires
-  - Tests de _navigation web_ (taux de pages chargées en moins de 5 ou 10 s).
-  - Tests de _vidéo en ligne_ (qualité du visionnage de vidéo en streaming).
-  - Tests de _débits descendants_ (paliers : < 3, 3–8, 8–30, > 30 Mbit/s).
-  - Tests de _téléversement de fichiers_ (upload d'un fichier de 1 Mo).
-  - Tests de _voix_ (maintient d'un appel pendant 120 secondes et note MOS < 2.1).
-  - Tests de _SMS_ (réception de SMS en moins de 10 s).
+  - Tests de _navigation web_ 
+  - Tests de _vidéo en ligne_ 
+  - Tests de _débits descendants_ 
+  - Tests de _téléversement de fichiers_ 
+  - Tests de _voix_ 
+  - Tests de _SMS_ 
 - **Antennes et déploiements**
   - Emplacement des sites par opérateur.
   - Eplacement des sites en pannes.
