@@ -156,7 +156,8 @@ textuelles, ARIA) ni la sobriété (poids des assets, requêtes réseau).
 ## 🔐 Sécurité
 
 Merci de **ne pas** divulguer publiquement une faille de sécurité dans une issue.
-Signalez-la de manière responsable via l'adresse de contact ci-dessous. 
+Signalez-la de manière responsable via le canal indiqué dans [`SECURITY.md`](docs/SECURITY.md) ou
+via l'adresse de contact ci-dessous. 
 
 Adresse de contact : consommateurs@arcep.fr
 
