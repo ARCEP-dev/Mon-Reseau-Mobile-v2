@@ -27,6 +27,7 @@
 - [Accessibilité et éco-conception](#-accessibilité-et-éco-conception)
 - [Sécurité](#-sécurité)
 - [Licences](#-licences)
+- [Qui sommes-nous ?](#-qui-sommes-nous-?)
 - [Crédits et contact](#-crédits-et-contact)
 
 ---
@@ -42,8 +43,7 @@ les transports, en France métropolitaine et en Outre-mer.
 
 Le service s'adresse à tous les publics :
 
-- les **particuliers** qui veulent comparer les réseaux avant de changer d'opérateur ;
-- les **entreprises** qui envisagent une nouvelle implantation ;
+- les **particuliers** et les **entreprises** qui veulent comparer les réseaux avant de changer d'opérateur ;
 - les **collectivités** qui suivent l'évolution des déploiements des réseaux mobiles sur leur territoire.
 
 Ce dépôt publie le **code source** de l'application, conformément à la démarche d'ouverture
@@ -111,8 +111,7 @@ Accéder à l'application : **<https://monreseaumobile.arcep.fr/>**
 
 - **Code source** : publié sous **GNU GPL-3.0**. Voir [`LICENSE`](LICENSE).
 - **Données** : Les jeux de données sont sous licence ouverte (voir le détail sur la page de chacun sur data.gouv.fr) 
-- **Marques et logos** (« Mon réseau mobile », Arcep) : protégés, exclus de la licence du code
-  et non réutilisables sans autorisation.
+- **Marques et logos** : Logo Arcep - protégés, exclus de la licence du code et non réutilisables sans autorisation.
 
 ---
 
@@ -143,6 +142,7 @@ opérateurs. Les principales sources publiques réutilisables sont :
 | --- | --- | --- |
 | Cartes de couverture | Opérateurs / Arcep | [data.arcep.fr](https://data.arcep.fr/mobile/couvertures_theoriques/) |
 | Mesures de qualité de service | Arcep | [data.arcep.fr](https://data.arcep.fr/mobile/mesures_qualite_arcep/) |
+| Mesures de crowdsourcing | Collectivités / Entreprises | [data.arcep.fr](https://data.arcep.fr/mobile/mesures_crowdsourcing/) |
 | Antennes et déploiements | Arcep / ANFR | [data.arcep.fr](https://data.arcep.fr/mobile/sites/) · [data.gouv](https://www.data.gouv.fr/datasets/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1) |
 | Zones à couvrir | Arcep / Gouvernement | [data.arcep.fr](https://data.arcep.fr/mobile/dispositif_couverture_ciblee/) |
 | Signalements consommateurs | Arcep (« J'alerte l'Arcep ») | Non disponibles |
@@ -154,7 +154,7 @@ Vérifiez la licence propre à chaque jeu de données avant toute réutilisation
 
 ## ♿ Accessibilité et éco-conception
 
-Service public numérique, l'application vise la conformité au [RGAA](https://accessibilite.numerique.gouv.fr/) (Référentiel général
+Service public numérique, l'application a été développée en visant une conformité au [RGAA](https://accessibilite.numerique.gouv.fr/) (Référentiel général
 d'amélioration de l'accessibilité) et au [RGESN](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/) (Référentiel général d'écoconception de services numériques). 
 Toute contribution doit veiller à ne pas dégrader l'accessibilité (navigation clavier, contrastes, alternatives
 textuelles, ARIA) ni la sobriété (poids des assets, requêtes réseau).
@@ -163,7 +163,7 @@ textuelles, ARIA) ni la sobriété (poids des assets, requêtes réseau).
 
 ## 🔐 Sécurité
 
-Merci de **ne pas** divulguer publiquement une faille de sécurité dans une issue.
+Merci de **ne pas** divulguer publiquement une faille de sécurité dans une _issue_.
 Signalez-la de manière responsable via le canal indiqué dans [`/docs/SECURITY.md`](docs/SECURITY.md) ou
 via l'adresse de contact ci-dessous. 
 
@@ -173,6 +173,20 @@ Adresse de contact : opendata@arcep.fr
 démarche de sécurisation des systèmes d'informations proposée par l'ANSSI (Agence nationale 
 de la sécurité des systèmes d'information) via [MonServiceSécurisé](https://monservicesecurise.cyber.gouv.fr/).
 Néanmoins, des failles peuvent subsister. 
+
+---
+
+## 🏛️ Qui sommes-nous ?
+
+L’Arcep, c’est « l’Autorité de régulation des communications électroniques, des postes et de la distribution de la presse » : elle veille à l’accès au numérique en France, partout, pour tous et pour longtemps. Elle conduit les opérateurs à concilier leurs intérêts économiques avec des objectifs d’intérêt général.
+
+**Pourquoi ?** Parce que l’accès à la fibre, la 4G ou la 5G, à un choix de services numériques de qualité et durables, à des prix justes sur tout le territoire, est devenu essentiel pour les citoyens et les entreprises. 
+
+**Comment ?** L’Arcep fixe des règles et des obligations aux opérateurs pour favoriser la concurrence, assurer l’aménagement numérique du territoire et les inciter à investir dans l’amélioration de leurs services, elle collecte et en publie des informations pour plus de transparence, ou utilise son pouvoir de sanction. 
+
+Autorité Administrative Indépendante (AAI), elle agit en toute indépendance par rapport au gouvernement et aux entreprises.
+
+Visitez notre [site web](https://www.arcep.fr/) pour plus d'informations.
 
 ---
 
