@@ -14,8 +14,8 @@
 
 </div>
 
-🌍 **Other languages:**
-[English](docs/en/README.en.md)   [Español](docs/es/README.es.md)
+🌍 **Other languages:** 
+[English](docs/en/README.en.md) / [Español](docs/es/README.es.md)
 
 ---
 
