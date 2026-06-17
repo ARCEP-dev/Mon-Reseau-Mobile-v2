@@ -114,7 +114,7 @@ Accéder à l'application : **<https://monreseaumobile.arcep.fr/>**
 
 - **Code source** : publié sous **GNU GPL-3.0**. Voir [`LICENSE`](LICENSE).
 - **Données** : Les jeux de données sont sous licence ouverte (voir le détail sur la page de chacun sur data.gouv.fr) 
-- **Marques et logos** : Logo Arcep - protégés, exclus de la licence du code et non réutilisables sans autorisation.
+- **Marques et logos** : Logos Arcep - protégés, exclus de la licence du code et non réutilisables sans autorisation.
 
 ---
 
