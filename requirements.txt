@@ -67,7 +67,7 @@ greenlet==3.3.1
     # via sqlalchemy
 gunicorn==22.0.0
     # via -r requirements.in
-idna==3.11
+idna==3.15
     # via requests
 kiwisolver==1.4.9
     # via matplotlib
@@ -89,7 +89,7 @@ packaging==26.0
     #   pyogrio
 pandas==3.0.0
     # via geopandas
-pillow==12.1.1
+pillow==12.2.0
     # via
     #   django-colorfield
     #   matplotlib
@@ -109,7 +109,7 @@ python-dateutil==2.9.0.post0
     #   pandas
 pyyaml==6.0.3
     # via -r requirements.in
-requests==2.32.5
+requests==2.33.0
     # via -r requirements.in
 sentry-sdk==2.54.0
     # via -r requirements.in
@@ -125,7 +125,7 @@ typing-extensions==4.15.0
     # via
     #   psycopg
     #   sqlalchemy
-urllib3==2.6.3
+urllib3==2.7.0
     # via
     #   requests
     #   sentry-sdk
