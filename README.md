@@ -134,6 +134,8 @@ Accéder à l'application : **<https://monreseaumobile.arcep.fr/>**
 
 <img src="docs/stack.png" alt="Architecture">
 
+Vous pouvez monter la base de données grâce au fichier _skeleton-db-mrm.sql_. Les extensions requises sont : ['postgis'](https://postgis.net/), ['pg_trgm'](https://docs.postgresql.fr/9.6/pgtrgm.html), ['unaccent'](https://docs.postgresql.fr/10/unaccent.html), ['pg_buffercache'](https://docs.postgresql.fr/11/pgbuffercache.html).  
+
 ---
 
 ## 🗂️ Sources de données

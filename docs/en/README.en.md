@@ -132,6 +132,8 @@ Open the application: **<https://monreseaumobile.arcep.fr/>**
 
 <img src="../stack.png" alt="Architecture">
 
+You can set up the database using the skeleton-db-mrm.sql file. The required extensions are: ['postgis'](https://postgis.net/), ['pg_trgm'](https://docs.postgresql.fr/9.6/pgtrgm.html), ['unaccent'](https://docs.postgresql.fr/10/unaccent.html), ['pg_buffercache'](https://docs.postgresql.fr/11/pgbuffercache.html).  
+
 ---
 
 ## 🗂️ Data sources
